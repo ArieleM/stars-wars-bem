@@ -7,7 +7,9 @@ let footer = /*html */`
       <br/>
       Módulo de boas práticas.
     </p>
-    <img src=${planet} alt="Planet" width="180px" heigth="auto" />
+    <a href="#section-one">
+      <img src=${planet} alt="Planet" width="160px" heigth="auto" />
+    </a>
   </div>
 `
 

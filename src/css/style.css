@@ -32,9 +32,14 @@ h1, h2, h3, h4, p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: calc(10px + 30px);
+  transition: 0.3s;
 }
 .footer-contain p {
   font-size: 21px;
+}
+.footer-contain img:hover {
+  transform: scale(1.2);
 }
 
 .section {
@@ -65,7 +70,7 @@ h1, h2, h3, h4, p {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  height: 120vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -73,15 +78,52 @@ h1, h2, h3, h4, p {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: calc(10px -60px);
   height: 100%;
 }
 .background--two .block-section--two img {
-  margin: 90px 0px 0px 90px;
+  margin: 30px 0px 0px 90px;
+  max-width: 300px;
+  height: auto;
 }
 .background--two .block-section--two .text-block--two {
-  width: 40%;
+  width: 50%;
   font-size: 18px;
   margin: 90px 0px 0px 90px;
+}
+
+@media (max-width: 600px) {
+  .background--two {
+    height: 100vh;
+  }
+  .background--two .block-section--two {
+    display: grid;
+    height: 90%;
+  }
+  .background--two .block-section--two p {
+    text-align: center;
+    margin-left: 0;
+    font-size: 16px;
+  }
+  .background--two .block-section--two img {
+    margin: 0 auto;
+    width: 30%;
+  }
+  .background--two .block-section--two .text-block--two {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: -80px;
+  }
+
+  .footer-contain {
+    margin-bottom: calc(10px - 5px);
+  }
+  .footer-contain p {
+    font-size: 16px;
+  }
+  .footer-contain img {
+    width: 110px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
