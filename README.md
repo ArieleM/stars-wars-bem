@@ -1,5 +1,8 @@
 # Afya Labs :)
-## Template Node FullJS
+## Boas práticas
+
+### Veja o projeto online [aqui](https://stars-wars-bem.vercel.app/) 
+
 
 Para iniciar o projeto:
 `git clone https://github.com/ArieleM/stars-wars-bem`
