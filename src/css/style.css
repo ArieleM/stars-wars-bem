@@ -13,11 +13,21 @@ h1, h2, h3, h4 {
   font-family: "Odibee Sans", cursive;
 }
 
+.main-left {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+}
+
 .section {
   height: 100vh;
   width: 100%;
 }
-.section .background--one, .section .background--two {
+
+.background--one {
+  background-size: contain;
+}
+.background--two {
   background-size: contain;
 }
 
